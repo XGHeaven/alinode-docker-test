@@ -11,6 +11,6 @@ var app = http.createServer(function(req,res) {
 	res.end('Hello World')
 })
 
-app.listen(8080, function() {
+app.listen(80, function() {
 	console.log('start success')
 })
